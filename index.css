@@ -87,6 +87,16 @@ button:hover:before {
     border: 2px solid red;
 }
 
+#shadow{
+    width: 450px;
+    height: 110px;
+    background-color: gray;
+    border-radius: 15px;
+    position: absolute;
+    top: 75px;
+    right: 142px;
+    z-index: -1;
+}
 #time{
     width: 536px;
     height: 110px;
@@ -276,6 +286,11 @@ button:hover:before {
     }
     #time{
         width: 85vw;
+    }
+    #shadow{
+        width: 85vw;
+        left: 0px;
+        top: 12px;
     }
 
     
